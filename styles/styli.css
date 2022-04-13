@@ -12,7 +12,11 @@
         min-height: auto;
     }
 }
+img#logo0{
+    float: left;
+    width: 10vw;
 
+}
 span{
     font-size: 2vw;
     opacity: 0;
@@ -20,6 +24,9 @@ span{
 #headC,#headM,#headI{
     font-size: 5vw;
     color: aqua;
+}
+#heasrest2{
+    clear: both;
 }
 body{
     text-align: center;
