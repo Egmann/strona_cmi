@@ -10,4 +10,6 @@ $(document).ready(function(){
             });
         });
     });
+    $("#lde").mouseenter($("#slide").animate({width:'toggle'},350));
+    $("#lde").mouseleave($("#slide").animate({width:'toggle'},350));
 })
