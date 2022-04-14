@@ -1,94 +1,83 @@
-/**{
-    box-sizing: border-box;
-}*/
-@media screen and (max-width:800px) {
-    #nav{
+*{
+    margin: 0;
+}
+
+@media screen and (max-width:1000px) {
+    li{
         width: 100%;
-        min-height: auto;
+        clear: both;
+    }
+    li a{
+        width: 95vw;
+        text-align: center;
     }
     #content{
         width: 100%;
         min-height: auto;
     }
-    #article{
-        width: 100%;
-        min-height: auto;
-    }
 }
-#lde{
-        height: 100%;
-        width: 5vw;
-    }
-    menu{
-        padding: 0;
-        margin: 0;
-        width:100%;
-        position:sticky;
-        top:0;
-        float:left;
-    }
-
 
 img#logo0{
     float: left;
     width: 10vw;
+}
 
+img#pic{
+    height: 70vh;
 }
-span{
-    font-size: 2vw;
-    opacity: 0;
+
+#menu{
+    padding: 0;
+    margin: 0;
+    width:100%;
+    position:sticky;
+    top:0;
+    float:left;
+    background-color: black;
+    color: white;
 }
-#headC,#headM,#headI{
-    font-size: 5vw;
-    color: aqua;
+header{
+    background-color: white;
 }
-#heasrest2{
+footer{
+    background-color: white;
     clear: both;
 }
 body{
     text-align: center;
+    background-image: url("../pics/bg.jpg");
 }
-#div1,#div2,#div3{
-    background-color: lawngreen;
-    height: 450;
-    width: 200;
-}
-/*#div1{
+#content{
+    margin: 10px;
+    min-width: 98vw;
+    min-height: 70vh;
+    font-size: x-large;
+    float: left;
     text-align: left;
-    float: left;
 }
-#div2{
-    text-align: center;
-    float: left;
+#content p{
+    margin: 10px;
 }
-#div3{
-    text-align: right;   
-}*/
 ul{
     list-style-type: none;
-    background-color: blue;
     margin:0px;
-padding:0px;
+    padding:0px;
 }
 li{
- background-color: blue;
- margin:0px;
-padding:0px;
-width: 10vw;
-float:left;
+    margin:0px;
+    padding:0px;
+    width: 10vw;
+    float:left;
 }
 li a{
     display:block;
     text-decoration: none;
     font-size:16pt;
-    color:black;
-    padding: 20px;
-    
-}
-a.aktywna{
-    background-color:#E8C84E;
-}
-li a:hover:not(.aktywna){
-    background-color: brown;
+    font-weight: bold;
     color:white;
+    padding: 20px;    
+}
+a.aktywna, li a:hover{
+    background-color:aqua;
+    color:black;
 }
