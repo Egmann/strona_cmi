@@ -17,3 +17,22 @@ function next()
     txt.innerHTML = "p"+x+".jpg";
     pic.src = "pics/p"+x+".jpg";
 }
+var y = 1;
+var txtV = document.getElementById("txtV");
+var vid = document.getElementById("vid");
+
+function prevV()
+{
+    y--;
+    if(y<1) y = 10;
+    txtV.innerHTML = "v"+y+".mp4";
+    vid.src = "pics/v"+y+".mp4";
+}
+
+function nextV()
+{
+    y++;
+    if(y>10) y = 1;
+    txtV.innerHTML = "v"+y+".mp4";
+    vid.src = "pics/v"+y+".mp4";
+}

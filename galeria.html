@@ -12,6 +12,7 @@
 
 </head>
 <body>
+    <img src="pics/cmi.png" id="logo0">
         <header>
             <span style="font-size: 40pt;font-weight: bold;" >Centrum Mistrzostwa Informatycznego</span>
         </header>
@@ -28,9 +29,20 @@
             <span id="txt">p1.jpg</span>
             <button onclick="next()">--></button>
         </div>
+        <div id="content" style="text-align: center;">
+            <video style="min-width: 400px;" controls>
+                <source src="pics/v1.jpg" id="vid" type="video/mp4">
+                The browser doesnt support vids :(
+            </video>
+            <br>
+            <button onclick="prevV()"><--</button>
+            <span id="txtV">v1.jpg</span>
+            <button onclick="nextV()">--></button>
+            </button>
+        </div>
         <footer>
             <img src="pics/footer.png" width="70%">
-            <p>Copyright © 2022 by Rafał Palka, Mateusz Ostrycharz and Maciej Żukowski.</p><br>
+            <p>Copyright © 2022 by Rafał Palka, Mateusz Ostrycharz and Maciej Żukowski, all rights reserved.</p><br>
         </footer>
 
     <script src="scripts/scriptg.js"></script>
