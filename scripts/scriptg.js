@@ -19,7 +19,8 @@ function next()
 }
 var y = 1;
 var txtV = document.getElementById("txtV");
-var vid = document.getElementById("vid");
+var vid = document.getElementById("src");
+const v = document.getElementById("vid");
 
 function prevV()
 {
@@ -27,6 +28,8 @@ function prevV()
     if(y<1) y = 10;
     txtV.innerHTML = "v"+y+".mp4";
     vid.src = "pics/v"+y+".mp4";
+    v.load();
+    v.play();
 }
 
 function nextV()
@@ -35,6 +38,8 @@ function nextV()
     if(y>10) y = 1;
     txtV.innerHTML = "v"+y+".mp4";
     vid.src = "pics/v"+y+".mp4";
+    v.load();
+    v.play();
 }
 $(document).ready(function(){
     $("#cmi").animate({opacity:'100'}, 15000);
