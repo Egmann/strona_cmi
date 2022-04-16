@@ -22,8 +22,8 @@ img#logo0{
     width: 10vw;
 }
 
-img#pic{
-    height: 70vh;
+img#pic, #vid{
+    height: 60vh;
 }
 
 #menu{
@@ -52,7 +52,7 @@ body{
     min-height: 70vh;
     font-size: x-large;
     float: left;
-    text-align: center;
+    text-align: left;
 }
 #contentvid{
     margin: 10px;
@@ -63,12 +63,12 @@ body{
 #content p{
     margin: 10px;
 }
-ul{
+#menu ul{
     list-style-type: none;
     margin:0px;
     padding:0px;
 }
-li{
+#menu li{
     margin:0px;
     padding:0px;
     width: 10vw;
