@@ -49,11 +49,10 @@ body{
 }
 #content{
     margin: 10px;
-    min-width: 98vw;
     min-height: 70vh;
     font-size: x-large;
     float: left;
-    text-align: left;
+    text-align: center;
 }
 #content p{
     margin: 10px;
@@ -80,4 +79,7 @@ li a{
 a.aktywna, li a:hover{
     background-color:aqua;
     color:black;
+}
+#cmi{
+    opacity: 0;
 }

@@ -36,3 +36,6 @@ function nextV()
     txtV.innerHTML = "v"+y+".mp4";
     vid.src = "pics/v"+y+".mp4";
 }
+$(document).ready(function(){
+    $("#cmi").animate({opacity:'100'}, 15000);
+});
