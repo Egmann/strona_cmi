@@ -11,10 +11,11 @@
     <title>CMI</title>
 
 </head>
-<body>
+<body onload="startTime();">
     <a href="https://cmi.edu.pl/"><img src="pics/cmi.png" id="logo0"></a>
         <header>
-            <span id = "cmi" style="font-size: 40pt;font-weight: bold;" >Centrum Mistrzostwa Informatycznego</span>
+            <span id = "cmi" style="font-size: 40pt;" >Centrum Mistrzostwa Informatycznego</span><br>
+            <span id = "time" style="font-size: 16pt;"></span>
         </header>
         <div id="menu">
             <ul>
@@ -23,22 +24,24 @@
                 <li><a href="kursy.html">KURSY</a></li>
             </ul>
         </div>
-        <div id="content" style="text-align: center;">
-            <img src="pics/p1.jpg" id="pic"><br>
-            <button onclick="prev('pic')"><--</button>
-            <span id="txt">p1.jpg</span>
-            <button onclick="next('pic')">--></button>
-        </div>
-        <div id="contentvid" style="text-align: center;">
-            <video id="vid" controls muted id="vid">
-                <source id="src" src="pics/v1.mp4" type="video/mp4">
-                The browser doesnt support vids :(
-            </video>
-            <br>
-            <button onclick="prev('vid')"><--</button>
-            <span id="txtV">v1.mp4</span>
-            <button onclick="next('vid')">--></button>
-            </button>
+        <div id="content" style="text-align: center; float: none;">
+            <div>
+                <img src="pics/p1.jpg" id="pic">
+                <br>
+                <img src="pics/larrow.png" onclick="prev('pic')" style="height: 30px;cursor: pointer;">
+                <span id="txt">p1.jpg</span>
+                <img src="pics/rarrow.png" onclick="next('pic')" style="height: 30px;cursor: pointer;">
+            </div>
+            <div>
+                <video id="vid" controls muted autoplay id="vid">
+                    <source id="src" src="pics/v1.mp4" type="video/mp4">
+                    The browser doesnt support vids :(
+                </video>
+                <br>
+                <img src="pics/larrow.png" onclick="prev('vid')" style="height: 30px;cursor: pointer;">
+                <span id="txtV">v1.mp4</span>
+                <img src="pics/rarrow.png" onclick="next('vid')" style="height: 30px;cursor: pointer;">
+            </div>
         </div>
         <footer>
             <img src="pics/footer.png" width="70%">
@@ -46,6 +49,7 @@
             <p>Copyright © 2022 by Rafał Palka, Mateusz Ostrycharz and Maciej Żukowski, all rights reserved.</p><br>
         </footer>
 
+    <script src="scripts/scripti.js"></script>
     <script src="scripts/scriptg.js"></script>
 </body>
 </html>
