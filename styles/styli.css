@@ -3,20 +3,17 @@
 }
 
 @media screen and (max-width:1000px) {
-    li{
+    #menu li{
         width: 100%;
         clear: both;
     }
-    li a{
+    #menu a{
         width: 95vw;
         text-align: center;
     }
     #content{
         width: 100%;
         min-height: auto;
-    }
-    div#div,div#dic{
-        width: 100%;
     }
 }
 
@@ -89,25 +86,20 @@ a.aktywna, li a:hover{
     opacity: 0;
     font-weight: bold;
 }
-div#div{
+
+#robots ul{
+    list-style-type: none;
+}
+
+#robots li{
     float: left;
-    display: block;
-    width: 24%;
-    height: 50%;
-    padding: 5px;
-    background-color: cyan;
+    width: fit-content;
+    background-color: black;
+    color: white;
 }
-div#dic{
-    float: left;
-    display: block;
-    width: 24%;
-    height: 50%;
-    padding: 5px;
-    background-color: cyan;
-}
-div#dic::after{
-    clear: both;
-}
-div#list:nth-child(even){
-    background-color: lightgray;
+
+#robots li:hover{
+    background-color: aqua;
+    color: black;
+    cursor: pointer;
 }

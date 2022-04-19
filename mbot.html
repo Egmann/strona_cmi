@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/styli.css">
+    <title>CMI</title>
+</head>
+<body onload="startTime();">
+    <a href="https://cmi.edu.pl/"><img src="pics/cmi.png" id="logo0"></a>
+        <header>
+            <span id = "cmi" style="font-size: 40pt;" >Centrum Mistrzostwa Informatycznego</span><br>
+            <span id = "time" style="font-size: 16pt;"></span>
+        </header>
+        <div id="menu">
+            <ul>
+                <li><a href="index.html">GŁÓWNA</a> </li>
+                <li><a href="galeria.html">GALERIA</a></li>
+                <li><a href="kursy.html">KURSY</a></li>
+                <li><a href="bots.html">ROBOTY</a></li>
+                <li><a href="mbot.html" class="aktywna">MBOT</a></li>
+            </ul>
+        </div>
+        <div id="content">
+            <div style="float:left;">
+                <img id="kw" src="pics/mbot.jpg" usemap="#mbotmap" height="700px">
+                <map name="mbotmap">
+                    <area shape="rect" coords="0,0,500,350" href="#" onclick="show('Mbot')">
+                    <area shape="rect" coords="0,350,230,460" href="#" onclick="show('Opony')">
+                    <area shape="rect" coords="0,460,230,570" href="#" onclick="show('Koła')">
+                    <area shape="rect" coords="0,580,125,700" href="#" onclick="show('Zasilacz na baterie')">
+                    <area shape="rect" coords="500,0,700,165" href="#" onclick="show('Pudełko')">
+                    <area shape="rect" coords="500,165,700,230" href="#" onclick="show('Śrubki')">
+                    <area shape="rect" coords="500,230,555,335" href="#" onclick="show('Wyświetlacz LED')">
+                    <area shape="rect" coords="565,244,611,333" href="#" onclick="show('Czujnik linii')">
+                    <area shape="rect" coords="627,265,685,320" href="#" onclick="show('Kółko przednie')">
+                    <area shape="rect" coords="230,350,275,580" href="#" onclick="show('Kable czujników')">
+                    <area shape="rect" coords="280,350,445,480" href="#" onclick="show('Kabel USB')">
+                    <area shape="rect" coords="450,350,690,500" href="#" onclick="show('Metalowa obudowa')">
+                    <area shape="rect" coords="300,500,610,560" href="#" onclick="show('Silniki')">
+                    <area shape="rect" coords="625,500,700,555" href="#" onclick="show('Bluetooth LE')">
+                    <area shape="rect" coords="625,580,700,700" href="#" onclick="show('Czujnik odległości')">
+                    <area shape="rect" coords="300,580,620,700" href="#" onclick="show('Sterownik mCore z obudową')">
+                    <area shape="rect" coords="135,600,295,665" href="#" onclick="show('Śrubokręt')">
+                </map>
+            </div>
+            <div style="float: left;max-width: 1000px;">
+                <span id="s1"><h1>Kliknij na element, aby dowiedzieć się więcej</h1></span>
+            </div>
+        </div>
+        <footer>
+            <img src="pics/footer.png" width="70%">
+            <p>Projekt "Centrum Mistrzostwa Informatycznego" współﬁnansowany jest ze środków Unii Europejskiej z Europejskiego Funduszu Rozwoju Regionalnego w ramach Programu Operacyjnego Polska Cyfrowa na lata 2014 - 2020</p>
+            <p>Copyright © 2022 by Rafał Palka, Mateusz Ostrycharz and Maciej Żukowski, all rights reserved.</p><br>
+        </footer>
+
+    <script src="scripts/scripti.js"></script>
+    <script src="scripts/scriptm.js"></script>
+</body>
+</html>
