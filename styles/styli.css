@@ -2,7 +2,7 @@
     margin: 0;
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:800px) {
     #menu li{
         width: 100%;
         clear: both;
@@ -67,7 +67,7 @@ body{
 #menu li{
     margin:0px;
     padding:0px;
-    width: 10vw;
+    width: 150px;
     float:left;
 }
 li a{
