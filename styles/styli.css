@@ -92,18 +92,21 @@ a.aktywna, li a:hover{
 div#div{
     float: left;
     display: block;
-    width: 25%;
+    width: 24%;
     height: 50%;
     padding: 5px;
     background-color: cyan;
 }
 div#dic{
-    clear: both;
+    float: left;
     display: block;
-    width: 25%;
+    width: 24%;
     height: 50%;
     padding: 5px;
     background-color: cyan;
+}
+div#dic::after{
+    clear: both;
 }
 div#list:nth-child(even){
     background-color: lightgray;
