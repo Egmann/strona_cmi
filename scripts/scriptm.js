@@ -5,7 +5,7 @@ function show(name)
     s1.innerHTML = "<h1>"+name+"</h1>";
     switch(name)
     {
-        case 'Mbot':
+        case 'mBot':
             s1.innerHTML += "mBot to uniwersalny robot pozwalający na jednoczesne zapoznanie się z zagadnieniami robotyki, elektroniki i programowania. Robot jest łatwy do złożenia a programowanie jest proste dzięki graficznym układom, które należy łączyć ze sobą niczym puzzle. Robot składa się z 38 części i można go zbudować w 10 minut. Wtyczki kabli oznaczone są różnymi kolorami, czyniąc montaż całości jeszcze łatwiejszym. Oprogramowanie opiera się na Scratch 2.0. Opracowane przez specjalistów gwarantuje szybkie postępy w nauce. Dzięki graficznym bloczkom robota można kontrolować na wiele sposobów.";
             break;
         case 'Czujnik odległości':
@@ -37,6 +37,12 @@ function show(name)
             break;
         case 'Kabel USB':
             s1.innerHTML += "Umożliwia podłączenie robota do komputera.";
+            break;
+        case "Śrubokręt":
+            s1.innerHTML += "Jedno z podstawowych narzędzi ręcznych. Wkrętak składa się z rękojeści i grotu. W najprostszym wykonaniu jest to pręt (najczęściej stalowy, ale bywają wkrętaki z innych metali, np. z mosiądzu oraz z tworzyw sztucznych), na jednym końcu ścięty lub spłaszczony tak, że powstała w ten sposób wąska krawędź umożliwia wsunięcie jej w wycięcie w łbie wkręta, co następnie, poprzez obrót wkrętaka wokół osi, umożliwia obrócenie wraz z nim samego wkrętu. Przeciwległy koniec pręta (grotu) zazwyczaj umocowany jest w uchwycie (rękojeści), zazwyczaj z tworzywa sztucznego, ułatwiającym obracanie wkrętaka, choć czasem stosuje się rozwiązanie polegające na wygięciu przeciwległego końca w sposób umożliwiający obrót narzędziem.";
+            break;
+        case "Śrubokręt":
+            s1.innerHTML += "Jedno z podstawowych narzędzi ręcznych. Wkrętak składa się z rękojeści i grotu. W najprostszym wykonaniu jest to pręt (najczęściej stalowy, ale bywają wkrętaki z innych metali, np. z mosiądzu oraz z tworzyw sztucznych), na jednym końcu ścięty lub spłaszczony tak, że powstała w ten sposób wąska krawędź umożliwia wsunięcie jej w wycięcie w łbie wkręta, co następnie, poprzez obrót wkrętaka wokół osi, umożliwia obrócenie wraz z nim samego wkrętu. Przeciwległy koniec pręta (grotu) zazwyczaj umocowany jest w uchwycie (rękojeści), zazwyczaj z tworzywa sztucznego, ułatwiającym obracanie wkrętaka, choć czasem stosuje się rozwiązanie polegające na wygięciu przeciwległego końca w sposób umożliwiający obrót narzędziem.";
             break;
     }
 }
