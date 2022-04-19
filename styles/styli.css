@@ -11,7 +11,7 @@
         width: 95vw;
         text-align: center;
     }
-    #content,#contentvid{
+    #content{
         width: 100%;
         min-height: auto;
     }
@@ -50,16 +50,11 @@ footer{
 body{
     text-align: center;
     background-image: url("../pics/bg.jpg");
+    background-size: cover;
 }
 #content{
     margin: 10px;
     min-height: 70vh;
-    font-size: x-large;
-    float: left;
-    text-align: left;
-}
-#contentvid{
-    margin: 10px;
     font-size: x-large;
     float: left;
     text-align: left;
@@ -90,8 +85,9 @@ a.aktywna, li a:hover{
     background-color:aqua;
     color:black;
 }
-#cmi{
+#cmi, #time{
     opacity: 0;
+    font-weight: bold;
 }
 div#div{
     float: left;
