@@ -24,8 +24,7 @@ img#logo0{
 }
 
 img#pic, #vid{
-    height: 60vh;
-    max-width: 40vw;
+    height: 600px;
 }
 
 #menu{

@@ -20,8 +20,6 @@ function prev(type)
         if(y<1) y = 9;
         txtV.innerHTML = "v"+y+".mp4";
         vid.src = "pics/v"+y+".mp4";
-        vid.load();
-        vid.play();
     }
 }
 
@@ -40,8 +38,6 @@ function next(type)
         if(y>9) y = 1;
         txtV.innerHTML = "v"+y+".mp4";
         vid.src = "pics/v"+y+".mp4";
-        vid.load();
-        vid.play();
     }
 }
 
