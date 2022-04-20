@@ -44,5 +44,8 @@ function show(name)
         case "Śrubokręt":
             s1.innerHTML += "Jedno z podstawowych narzędzi ręcznych. Wkrętak składa się z rękojeści i grotu. W najprostszym wykonaniu jest to pręt (najczęściej stalowy, ale bywają wkrętaki z innych metali, np. z mosiądzu oraz z tworzyw sztucznych), na jednym końcu ścięty lub spłaszczony tak, że powstała w ten sposób wąska krawędź umożliwia wsunięcie jej w wycięcie w łbie wkręta, co następnie, poprzez obrót wkrętaka wokół osi, umożliwia obrócenie wraz z nim samego wkrętu. Przeciwległy koniec pręta (grotu) zazwyczaj umocowany jest w uchwycie (rękojeści), zazwyczaj z tworzywa sztucznego, ułatwiającym obracanie wkrętaka, choć czasem stosuje się rozwiązanie polegające na wygięciu przeciwległego końca w sposób umożliwiający obrót narzędziem.";
             break;
+        case "Śrubki":
+            s1.innerHTML += "Śrubki są fajne";
+            break;
     }
 }
