@@ -6,6 +6,7 @@
     #menu li{
         width: 100%;
         clear: both;
+        height: 50px;
     }
     #menu a{
         width: 95vw;
@@ -19,7 +20,7 @@
 
 img#logo0{
     float: left;
-    width: 10vw;
+    height: 10vh;
 }
 
 img#pic, #vid{
